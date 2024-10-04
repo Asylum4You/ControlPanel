@@ -1,5 +1,13 @@
 # Change log
 
+## 3.5.3
+
+* Fixed the issue with missing the link to download the temporary Backup file after refreshing the page. (Bug 70341).
+* Fixed the issue when a curl request to the Control Panel stops the service on Windows. (Bug 70049).
+* Fixed the issue when the description of the dark theme logo indicates that the logo is for the light theme. (Bug 68858).
+* Fixed the issue with the ability to switch the portal to HTTPS in the docker version (Bug 70624).
+* Added a checkbox when creating a backup for migration to DocSpace.
+
 ## 3.5.2
 
 * Added the ability to restrict access rights to the application files for the Others group (Bug 61602).
